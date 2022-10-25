@@ -2,7 +2,6 @@ CREATE TABLE Telephone_Directory (id int , name varchar(20),tel_no bigint,addres
 
 select * from Telephone_Directory
 
-
 insert into Telephone_Directory values (1002,'nisha',8095908044,'hubli','Engineer')
 insert into Telephone_Directory values (1003,'amisha',8769713413,'HUbli','student')
 insert into Telephone_Directory values (1003,'sanjana',8769713413,'Hazipur','student')

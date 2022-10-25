@@ -1,6 +1,5 @@
 CREATE TABLE student (s_id int NOT NULL, s_name varchar(20), course varchar(20),marks int, UNIQUE(s_id) )
 
-
 insert into student values (1001,'Reeta','Maths',40)
 insert into student values (1002,'Ramu','Chem',50)
 insert into student values (1003,'Reena','Phys',60)

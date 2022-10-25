@@ -6,6 +6,7 @@ CREATE TABLE CUSTOMER (
     tel float NOT NULL,
     email varchar(20) not null,
 );
+
 select * from CUSTOMER
 insert into CUSTOMER values(1,'isha','Pune','1234567809','nisha@gmail.com');
 insert into CUSTOMER values(2,'kunal','Bangalore','2345678901','kunal@gmail.com');
