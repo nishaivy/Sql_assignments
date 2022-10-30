@@ -11,6 +11,5 @@ insert into city values(1007,'Kolkata')
 insert into city values(1008,'Mumbai')
 
 select * from city
-
 select city_code,SUBSTRING(city_name,1,3) from city
 	

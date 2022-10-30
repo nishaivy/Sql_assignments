@@ -16,8 +16,5 @@ insert into orders values(1007,7000000,'12-10-2021')
 insert into orders values(1008,4000000,'07-01-2022')
 
 select * from orders
-
-
-
 select MAX(pur_amount) from orders
 where pur_amount in (select pur_amount from orders where order_date>='05-01-2022' group by pur_amount)

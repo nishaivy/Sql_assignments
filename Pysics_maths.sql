@@ -22,9 +22,4 @@ insert into student values(111,'puja','Phys')
 insert into student values(112,'puja','chem')
 
 select * from student
-
-SELECT s_name
-FROM student
-WHERE s_course  not in ('Maths','Phys')
-GROUP BY s_name
-HAVING COUNT(distinct s_course) >= 2
+SELECT s_name FROM student WHERE s_course  not in ('Maths','Phys') GROUP BY s_name HAVING COUNT(distinct s_course) >= 2

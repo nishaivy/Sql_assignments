@@ -12,4 +12,4 @@ insert into employees values(10007,'poojitha',52000)
 insert into employees values(10008,'raju',65000)
 insert into employees values(10009,'neelam',80000)
 
-select * from employees where salary > 50000 and salary<80000
+select * from employees where salary > 50000 and salary< 80000

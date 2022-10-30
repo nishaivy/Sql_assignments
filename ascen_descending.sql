@@ -18,7 +18,6 @@ insert into employee values(109,'shilpa','casino')
 insert into employee values(110,'parnav','bingo')
 insert into employee values(111,'AkshayaLaxmi','trading')
 insert into employee values(112,'Utshayab','sports')
-
 insert into employee values(113,'soaib','Aqua')
 insert into employee values(114,'ravi','Agni')
 insert into employee values(115,'raju','casino')

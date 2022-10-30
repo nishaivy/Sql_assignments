@@ -11,6 +11,7 @@ insert into people values(102,'manish','delhi','dehli')
 insert into people values(103,'anand','delhi','dehli')	
 insert into people values(104,'ankit','delhi','dehli')	
 insert into people values(105,'blinty','delhi','dehli')	
+
 insert into people values(106,'nisha','mumbai','maharastra')	
 insert into people values(107,'poojitha','mumbai','maharastra')	
 insert into people values(108,'sanjana','mumbai','maharastra')	

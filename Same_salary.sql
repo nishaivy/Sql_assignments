@@ -16,6 +16,4 @@ insert into employee1 values(10007,'poojitha',60000)
 insert into employee1 values(10008,'raju',70000)
 insert into employee1 values(10009,'neelam',80000)
 
-select emp_name,salary from employee1
-WHERE salary
-IN ( SELECT salary FROM employee1 GROUP BY salary HAVING COUNT(salary) > 1) order by salary
+select emp_name,salary from employee1 WHERE salary IN ( SELECT salary FROM employee1 GROUP BY salary HAVING COUNT(salary) > 1) order by salary

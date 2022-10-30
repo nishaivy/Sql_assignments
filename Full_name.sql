@@ -1,6 +1,9 @@
 
 use assign27
-CREATE TABLE person(per_no INT PRIMARY KEY,First_name varchar(20),Last_name varchar(20))
+CREATE TABLE person(per_no INT PRIMARY KEY,
+First_name varchar(20),
+Last_name varchar(20)
+)
 
 select * from person
 
