@@ -13,7 +13,7 @@ namespace Assignment_03
         {
             try
             {
-                string connection = @"Data Source=INLPF3KTP43\MSSQLSERVER1;Initial Catalog=nisha;trusted_connection=true";
+                string connection = @"Data Source=INLPF21DBJ6\MSSQLSERVER1;Initial Catalog=assign28;trusted_connection=true";
                 SqlConnection con = new SqlConnection(connection);
                 con.Open();
 
