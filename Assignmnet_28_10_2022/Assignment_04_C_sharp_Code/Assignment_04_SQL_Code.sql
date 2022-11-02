@@ -45,10 +45,7 @@ DECLARE @total_marks AS INT
 SELECT  @total_marks= SUM(marks)  from student group by s_name having s_name = @d_s_name 
 
 
---select SUM(marks) from student group by s_name  having s_name = 'sanjana'
-
 EXEC p1 @total_marks
 END
 
---EXEC p1 303 
---EXEC p2 'sanjana'
+
