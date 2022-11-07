@@ -14,8 +14,7 @@ namespace Assignment_04_C_sharp_Code
         {
             try
             {
-                string connection = @"Data Source=INLPF21DBJ6\MSSQLSERVER1;Initial Catalog=assign28;trusted_connection=true";
-
+                string connection = @"Data Source=INLPF21DBJ6\\MSSQLSERVER1;Initial Catalog=assign28;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
                 SqlConnection conn = new SqlConnection(connection) ;
                 conn.Open();
 
