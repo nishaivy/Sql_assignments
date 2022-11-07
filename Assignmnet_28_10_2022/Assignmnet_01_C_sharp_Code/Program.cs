@@ -13,8 +13,8 @@ namespace Assignmnet_01_C_sharp_Code
         {
             try
             {
-                string connection = "Data Source=INLPF21DBJ6\\MSSQLSERVER1;Initial Catalog=assign28;trusted_connection=true";
-                SqlConnection conn = new SqlConnection(connection);
+               string connection = @"Data Source=INLPF21DBJ6\\MSSQLSERVER1;Initial Catalog=assign28;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                 SqlConnection conn = new SqlConnection(connection);
                 conn.Open();
 
                 int i = 0;
