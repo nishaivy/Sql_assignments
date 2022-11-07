@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace Assignment_03
+namespace Movie_info
 {
     internal class Program
     {
@@ -13,7 +13,7 @@ namespace Assignment_03
         {
             try
             {
-                string connection = @"Data Source=INLPF21DBJ6\MSSQLSERVER1;Initial Catalog=assign28;trusted_connection=true";
+                string connection = @"Data Source=INLPF21DBJ6\\MSSQLSERVER1;Initial Catalog=nisha;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
                 SqlConnection con = new SqlConnection(connection);
                 con.Open();
 
