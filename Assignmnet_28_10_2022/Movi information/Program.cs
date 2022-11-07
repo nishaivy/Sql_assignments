@@ -13,7 +13,7 @@ namespace Movie_info
         {
             try
             {
-                string connection = @"Data Source=INLPF21DBJ6\\MSSQLSERVER1;Initial Catalog=nisha;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                string connection = @"Data Source=INLPF21DBJ6\\MSSQLSERVER1;Initial Catalog=assign28;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
                 SqlConnection con = new SqlConnection(connection);
                 con.Open();
 
