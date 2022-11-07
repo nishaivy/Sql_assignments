@@ -1,4 +1,4 @@
-use mukesh
+use assign28
 
 CREATE TABLE cus_Information(
 cus_name varchar(20),
@@ -6,7 +6,7 @@ cus_age INT,
 cus_Aadhar_no BIGINT PRIMARY KEY
 )
 
-insert into cus_Information values('mukesh',21,439439292312)
+insert into cus_Information values('nisha',21,439439292312)
 insert into cus_Information values('manish',22,129439292123)
 insert into cus_Information values('anand',24,3494392928909)
 insert into cus_Information values('ankit',25,679439292657)
